@@ -1,0 +1,90 @@
+/* Main Section Styling */
+.section5-transformation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px;
+  background-color: black; /* Black background */
+  color: white; /* White text */
+  text-align: center;
+}
+
+/* Row Styling for Flexbox */
+.section5-row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /* Make it responsive */
+  width: 100%;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+/* Block Styling with Hover Effects */
+.section5-block {
+  flex: 1;
+  max-width: 300px;
+  margin: 10px;
+  padding: 20px;
+  background-color: #1a1a1a; /* Slightly lighter background for contrast */
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+/* Hover Effect */
+.section5-block:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.3);
+  background-color: #333; /* Slightly lighter on hover */
+}
+
+/* Icon Styling */
+.icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+/* Hover Effect for Icon */
+.section5-block:hover .icon {
+  transform: rotate(360deg); /* Rotate icon on hover */
+}
+
+/* Title Styling */
+.section5-title {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #f0c27b; /* Make the title more eye-catching with a yellow color */
+}
+
+/* Text Styling */
+.section5-text {
+  font-size: 1.1rem;
+  color: #ddd; /* Softer white for text */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .section5-block {
+    max-width: 90%; /* Full-width on smaller screens */
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .section5-title {
+    font-size: 1.4rem;
+  }
+
+  .section5-text {
+    font-size: 1rem;
+  }
+}

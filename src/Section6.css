@@ -1,0 +1,83 @@
+.testimonials-section {
+  padding: 10px 20px;
+  background-color: #000; /* Black background */
+  text-align: center;
+}
+
+.testimonials-title {
+  font-size: 36px; /* Font size for the main heading */
+  margin-bottom: 10px;
+  font-size: 46px;
+    margin-bottom: 10px;
+    /* font-family: "Cinzel", Sans-serif; */
+    font-family: ui-rounded;
+    font-weight: 500;
+    line-height: 1.1em;
+    color: white;
+}
+
+.testimonials-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns for large screens */
+  gap: 30px; /* Gap between testimonial items */
+}
+
+.testimonial-item {
+  color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1); /* Soft white shadow */
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Background images for each testimonial item */
+.testimonial-item:nth-child(1) {
+  background-color: #000;
+}
+
+.testimonial-item:nth-child(2) {
+  background-image: url('../public/a5sd3ad.webp');
+}
+
+.testimonial-item:nth-child(3) {
+  background-image: url('../public/asd74sa5d.webp');
+}
+
+.testimonial-item:nth-child(4) {
+  background-image: url('../public/a5sd3ad.webp');
+}
+
+.testimonial-item:hover {
+  transform: translateY(-10px); /* Lift effect on hover */
+  box-shadow: 0 8px 25px rgba(255, 255, 255, 0.3); /* Stronger white shadow on hover */
+}
+
+.testimonial-name {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.testimonial-description {
+  font-size: 1em;
+  line-height: 1.6;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .testimonials-row {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonials-row {
+    grid-template-columns: 1fr; /* Single column layout for mobile */
+  }
+}

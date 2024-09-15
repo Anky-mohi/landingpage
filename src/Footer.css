@@ -1,0 +1,19 @@
+/* src/Footer.css */
+.footer {
+    padding: 20px;
+    background-color: #151b23;
+    color: white;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin: 5px 0;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .footer {
+      font-size: 14px;
+    }
+  }
+  

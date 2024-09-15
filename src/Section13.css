@@ -1,0 +1,107 @@
+/* Testimonial Section Styles */
+.testimonial-section {
+    background-color: #000000; /* Black background */
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 36px;
+    color: #FFFFFF; /* White text color */
+    margin-bottom: 40px;
+    font-family: "Cinzel", sans-serif;
+    position: relative;
+  }
+  
+  .section-title::after {
+    content: '';
+    width: 50px;
+    height: 4px;
+    background-color: #f19b1a;
+    display: block;
+    margin: 10px auto;
+  }
+  
+  /* Wrapper for Testimonials */
+  .testimonial-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .testimonial {
+    background-color: #1a1a1a; /* Dark gray for testimonial box */
+    box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 45%;
+    max-width: 500px;
+  }
+  
+  .testimonial:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.3);
+  }
+  
+  /* Video Container */
+  .testimonial-video {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .testimonial-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Text Section */
+  .testimonial-text {
+    padding: 20px;
+    text-align: left;
+    color: #f0f0f0; /* Light gray text color */
+  }
+  
+  .testimonial-text p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .customer-name {
+    font-weight: bold;
+    color: #f19b1a; /* Gold/orange for customer name */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .testimonial-wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .testimonial {
+      width: 100%;
+      max-width: 90%;
+    }
+  
+    .section-title {
+      font-size: 28px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .testimonial-text p {
+      font-size: 14px;
+    }
+  
+    .testimonial {
+      width: 100%;
+    }
+  }
+  

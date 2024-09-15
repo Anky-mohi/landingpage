@@ -1,0 +1,128 @@
+/* Main Section Styling */
+.mentoring-section {
+  background: #000; /* Black background for the section */
+  color: #f1f1f1; /* Light text color for readability */
+  padding: 60px 20px; /* Padding for spacing */
+  text-align: center; /* Center-align text */
+}
+
+.header {
+  margin-bottom: 40px; /* Space below the header */
+}
+
+.header h1 {
+  font-size: 2.5rem; /* Large font size for the heading */
+  color: #ffdd57; /* Bright yellow for contrast */
+  margin-bottom: 10px; /* Space below the heading */
+  margin-right: 150px;
+
+}
+
+.header p {
+  font-size: 1.2rem; /* Slightly larger font size for the paragraph */
+  color: #ccc; /* Medium gray for less emphasis */
+}
+
+.content-wrapper {
+  display: flex; /* Flexbox for layout */
+  justify-content: center; /* Center-align items horizontally */
+  gap: 20px; /* Space between columns */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.column {
+  flex: 1; /* Allow column to grow */
+  max-width: 500px; /* Limit column width */
+}
+
+.module-card {
+  background: #333; /* Dark background for the card */
+  padding: 20px; /* Padding inside the card */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+  margin-bottom: 20px; /* Space below each card */
+}
+
+.module-card:hover {
+  transform: translateY(-5px); /* Slight lift effect on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Stronger shadow on hover */
+}
+
+.module-card h2 {
+  font-size: 1.5rem; /* Font size for module titles */
+  color: #ffdd57; /* Bright yellow for module titles */
+  margin-bottom: 15px; /* Space below the title */
+}
+
+.module-card ul {
+  list-style: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+  text-align: left; /* Left-align list items */
+}
+
+.module-card li {
+  font-size: 1rem; /* Font size for list items */
+  margin-bottom: 10px; /* Space below list items */
+}
+
+.cta {
+  margin-top: 40px; /* Space above the CTA */
+}
+
+.cta button {
+  border: 0.789px solid #F0C27B;
+    background: linear-gradient(113deg, #FFF9DB 16.13%, #F0C27B 55.23%);
+    box-shadow: 0px 102.514px 28.389px 0px rgba(240, 194, 123, 0.00), 0px 65.451px 26.023px 0px rgba(240, 194, 123, 0.03), 0px 37.063px 22.08px 0px rgba(240, 194, 123, 0.10), 0px 16.56px 16.56px 0px rgba(240, 194, 123, 0.17), 0px 3.943px 8.674px 0px rgba(240, 194, 123, 0.20);
+
+    font-family: "Cinzel", Sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    fill: #000000;
+    color: #000000;
+    padding: 20px 50px 20px 50px;
+    border: 1px solid #fff; /* Border for button */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.cta button:hover {
+  background: ; /* Slightly darker yellow on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .content-wrapper {
+    flex-direction: column; /* Stack columns vertically on smaller screens */
+    text-align: center; /* Center-align text */
+  }
+
+  .module-card {
+    margin-left: auto; /* Center align cards horizontally */
+    margin-right: auto; /* Center align cards horizontally */
+  }
+}
+
+@media (max-width: 480px) {
+  .header h1 {
+    font-size: 2rem; /* Smaller font size for the heading */
+    margin-left: 45px;
+    margin-right: 50px;
+  }
+
+  .header p {
+    font-size: 1rem; /* Smaller font size for the paragraph */
+  }
+
+  .module-card h2 {
+    font-size: 1.25rem; /* Smaller font size for module titles */
+  }
+
+  .module-card li {
+    font-size: 0.9rem; /* Smaller font size for list items */
+  }
+
+  .cta button {
+    padding: 10px 20px; /* Adjust padding for smaller screens */
+    font-size: 1rem; /* Smaller font size for the button */
+  }
+}

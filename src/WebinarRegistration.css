@@ -1,0 +1,91 @@
+.webinar-registration-section {
+    background-color: #0b1018; /* Light background */
+    padding: 50px 5%;
+    text-align: center;
+  }
+  
+  .webinar-registration-title {
+    font-size: 2.5rem; /* Larger font size for emphasis */
+    margin-bottom: 20px; /* Space below the title */
+    color: red; /* Bright yellow for contrast */
+    font-weight: bold; /* Make the title bold */
+    background: linear-gradient(45deg, #ffdd57, #ff6f61); /* Gradient background */
+    -webkit-background-clip: text; /* Clip the gradient to text */
+    background-clip: text;
+    color: transparent; /* Hide the text color */
+    position: relative; /* Position relative for pseudo-elements */
+    display: inline-block; /* Ensure gradient applies properly */
+    padding: 5px; /* Padding for the gradient effect */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Subtle text shadow */
+    animation: pulse 1.5s infinite; /* Add pulse animation */
+  }
+  
+  .webinar-registration-description {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 30px;
+  }
+  
+  .webinar-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .webinar-input {
+    width: 100%;
+    max-width: 500px;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .webinar-submit {
+    margin-top: 40px;
+  padding: 15px 40px;
+ 
+  border: none;
+  border-radius: 30px;
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+  border: 0.789px solid #F0C27B;
+    background: linear-gradient(113deg, #FFF9DB 16.13%, #F0C27B 55.23%);
+    box-shadow: 0px 102.514px 28.389px 0px rgba(240, 194, 123, 0.00), 0px 65.451px 26.023px 0px rgba(240, 194, 123, 0.03), 0px 37.063px 22.08px 0px rgba(240, 194, 123, 0.10), 0px 16.56px 16.56px 0px rgba(240, 194, 123, 0.17), 0px 3.943px 8.674px 0px rgba(240, 194, 123, 0.20);
+    font-family: "Cinzel", Sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    fill: #000000;
+    color: #000000;
+    padding: 20px 50px 20px 50px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+  }
+  
+  .webinar-submit:hover {
+    background-color: #b8920d;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .webinar-registration-title {
+      font-size: 28px;
+    }
+  
+    .webinar-input {
+      width: 100%;
+    }
+  }
+  .pu {
+color: green;
+  }
+  .success-message{
+    color: green;
+  }
+  .response-message {
+    margin-top: 15px;
+    color: red;
+  }

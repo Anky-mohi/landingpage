@@ -1,0 +1,218 @@
+/* Countdown.css */
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.countdown-section {
+  background: linear-gradient(135deg, #141E30, #243B55); /* Gradient background */
+  color: #fff;
+  text-align: center;
+  padding: 50px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+  margin: 40px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.countdown-title {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #FFD700; /* Gold color for title */
+}
+
+.countdown-timer {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.countdown-item {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  width: 80px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  animation: pulse 2s infinite;
+}
+
+.countdown-number {
+  font-size: 3em;
+  font-weight: bold;
+  color: #FFD700; /* Gold color for numbers */
+}
+
+.countdown-label {
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #ddd;
+  margin-top: 5px;
+}
+
+/* Add some animations */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .countdown-timer {
+    /* flex-direction: column; */
+    /* gap: 20px; */
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+  .countdown-item {
+    width: 100px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .countdown-title {
+    font-size: 1.8em;
+  }
+
+  .countdown-item {
+    width: 80px;
+  }
+
+  .countdown-number {
+    font-size: 2.5em;
+  }
+}
+
+
+/* Countdown.css */
+
+
+
+/* Countdown.css */
+/* Countdown.css */
+.product-page {
+  background-color: #000; /* Black background */
+  padding: 20px;
+  color: #fff; /* Text color */
+}
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #333; /* Dark background for the product card */
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 250px; /* Fixed height for each product */
+}
+
+.product-container:hover {
+  transform: scale(1.05); /* Zoom effect on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.product-image {
+  width: 100%;
+  height: 120px; /* Fixed height for images */
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.product-title {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.product-description {
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  text-align: center; /* Center text */
+}
+
+.product-price {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.purchase-button {
+  background-color: #ff5722;
+  border: none;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.purchase-button:hover {
+  background-color: #e64a19;
+}
+
+/* Slider styling */
+.slick-slide {
+  padding: 0 10px; /* Space between slides */
+}@media (max-width: 1024px) {
+  .slick-slide {
+    padding: 0 10px; /* Padding for slider items */
+  }
+}
+
+@media (max-width: 600px) {
+  .product-container {
+    margin: 0 10px; /* Margin for product containers */
+  }
+
+  .product-title {
+    font-size: 1rem; /* Smaller font size for title */
+  }
+
+  .product-description {
+    font-size: 0.8rem; /* Smaller font size for description */
+  }
+
+  .product-price {
+    font-size: 0.9rem; /* Smaller font size for price */
+  }
+
+  .purchase-button {
+    padding: 8px 16px; /* Adjust padding for smaller screens */
+    font-size: 0.9rem; /* Smaller font size for button */
+  }
+}
+
+.slick-prev, .slick-next {
+  color: #fff; /* Arrow color */
+}
+
+
+
