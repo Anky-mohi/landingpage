@@ -7,24 +7,27 @@
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between; /* Space between the content and the image */
+  justify-content: space-between;
   padding: 0 5%;
   box-sizing: border-box;
   position: relative;
+  transition: background 0.5s ease; /* Smooth background change transition */
 }
 
 .section-content {
   max-width: 600px;
   color: #FFFFFF;
   font-family: "Cinzel", Sans-serif;
-  padding: 20px;
+  padding: 90px;
   border-radius: 10px;
   z-index: 1;
+  transition: transform 0.5s ease; /* Smooth scaling effect */
 }
 
 .section-content h1, .section-content h2 {
   margin: 0;
   line-height: 1.2em;
+  transition: color 0.3s ease; /* Smooth color transition */
 }
 
 .section-content h1 {
@@ -57,28 +60,31 @@
   padding: 20px 50px;
   border-radius: 5px;
   cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
 }
 
 .cta-button:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 8px 25px rgba(255, 255, 255, 0.3);
+  transform: translateY(-10px) scale(1.05); /* Slightly larger and moved up on hover */
+  box-shadow: 0 12px 30px rgba(255, 255, 255, 0.4); /* Stronger shadow on hover */
 }
 
 .image-container {
-  max-width: 600px; /* Limit width of the image */
+  max-width: 600px;
   height: auto;
   z-index: 1;
+  transition: opacity 0.5s ease; /* Smooth fade effect */
 }
 
 .man-image {
-  width: 135%;
+  width: 115%;
   margin-top: -39px;
-  margin-left: -183px;
+  margin-left: -93px;
+  transition: transform 0.5s ease; /* Smooth scaling effect */
 }
 
 @media (max-width: 768px) {
   .section-with-image {
-    flex-direction: column; /* Stack content and image vertically on smaller screens */
+    flex-direction: column;
     justify-content: center;
     background-image: url('../public/11.webp'); 
   }
@@ -100,22 +106,21 @@
   }
 
   .man-image {
-    display: none; /* Hide the man image on smaller screens */
+    display: none;
   }
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 @media (max-width: 480px) {
-  /* General styles for the mobile view */
   body {
     font-family: 'Roboto', sans-serif;
   }
 
   .section-with-image {
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center align the content */
+    flex-direction: column;
+    align-items: center;
     padding: 20px 10px;
   }
 
@@ -123,7 +128,8 @@
     max-width: 100%;
     padding: 10px;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 200px;
+    transition: transform 0.5s ease; /* Smooth scaling effect */
   }
 
   .section-content h1 {
@@ -144,11 +150,10 @@
     margin-bottom: 20px;
   }
 
-  /* Ensure image takes full width */
   .section-with-image img {
-    max-width: 100%; /* Makes sure image is responsive */
+    max-width: 100%;
     height: auto;
-    margin-bottom: 20px; /* Add some space below the image */
+    margin-bottom: 20px;
   }
 
   .cta-button {
@@ -159,17 +164,10 @@
     color: black;
     border: none;
     cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth background color transition */
   }
 
   .cta-button:hover {
     background-color: #0056b3;
   }
 }
-
-
-
-
-
-
-
-

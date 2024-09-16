@@ -1,11 +1,19 @@
-
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Section1.css';
 
 function Section1({ scrollToContact }) {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    // Add a delay to trigger the fade-in effect
+    setTimeout(() => {
+      setIsVisible(true);
+    }, 300); // 300ms delay for fade-in
+  }, []);
+
   return (
     <>
-      <section className="section-with-image">
+      <section className={`section-with-image ${isVisible ? 'visible' : ''}`}>
         <div className="section-content">
           <h1>Transforme seu Futuro Financeiro com uma Nova Fonte de Renda!</h1>
           <br />
@@ -19,7 +27,6 @@ function Section1({ scrollToContact }) {
             Quero me inscrever!
           </button>
         </div>
-        {/* Man's image on the right */}
         <div className="image-container">
           <img src="./jons.png" alt="Jonas Santos" className="man-image" />
         </div>
