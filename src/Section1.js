@@ -21,7 +21,7 @@ function Section1({ scrollToContact }) {
         </div>
         {/* Man's image on the right */}
         <div className="image-container">
-          <img src="../jons.png" alt="Jonas Santos" className="man-image" />
+          <img src="./jons.png" alt="Jonas Santos" className="man-image" />
         </div>
       </section>
     </>
