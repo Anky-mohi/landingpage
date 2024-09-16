@@ -21,7 +21,7 @@ const WebinarRegistration = React.forwardRef((props, ref) => {
     setResult('Sending...');
 
     const formDataObj = new FormData(event.target);
-    formDataObj.append('access_key', 'ee472c82-ebaa-4e95-bf42-698eeb62dfb3');
+    formDataObj.append('access_key', '93bd95c1-74b2-43e0-9c2c-f92d824b8f8d');
 
     const response = await fetch('https://api.web3forms.com/submit', {
       method: 'POST',
