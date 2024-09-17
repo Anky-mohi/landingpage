@@ -10,7 +10,7 @@ const Section4 = ({ scrollToContact }) => {
     },
     {
       title: "Servidores Públicos",
-      text: "que buscam mais do que a segurança financeira, procurando formas de fazer seu dinheiro trabalhar para eles.",
+      text: "Procurando novas formas de fazer fonte de renda",
       backgroundImage: "../213.webp" // Replace with your image path
     },
     {
@@ -20,7 +20,7 @@ const Section4 = ({ scrollToContact }) => {
     },
     {
       title: "Trabalhadores CLT",
-      text: "que sonham com a independência financeira, buscando estratégias para investir e multiplicar seus ganhos.",
+      text: "que sonham com a independência financeira, buscando estratégias para multiplicar seus ganhos.",
       backgroundImage: "../a5sd3ad.webp" // Replace with your image path
     },
     {
@@ -30,7 +30,7 @@ const Section4 = ({ scrollToContact }) => {
     },
     {
       title: "Professores e Educadores",
-      text: "que querem empoderar a próxima geração com o conhecimento e as habilidades para construir um futuro financeiro seguro e abundante.",
+      text: "Professores e educadores que queiram ampliar seu curriculo e complementar sua renda",
       backgroundImage: "../2d1s3f.webp" // Replace with your image path
     },
   ];

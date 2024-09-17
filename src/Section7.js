@@ -29,10 +29,10 @@ const Section7 = ({ scrollToContact }) => {
               <li>Técnicas de motivação e manutenção de hábitos</li>
               <li>Estratégias para superar limitações</li>
               <li><strong>Introdução ao Mercado:</strong></li>
-              <li>O que é um especialista em Nome Limpo?</li>
+              <li>O que é um especialista em Limpa Nome ?</li>
               <li>História das agências de crédito</li>
               <li>Tipos de Análise de Crédito</li>
-              <li>Diferenciação entre Serasa, SPC, BACEN, Sinprot</li>
+              <li>Diferenciação entre Serasa, SPC, BACEN,CENPROT</li>
             </ul>
           </div>
         </div>
@@ -52,7 +52,7 @@ const Section7 = ({ scrollToContact }) => {
               <li>Histórico Financeiro do Cliente e Impacto no Orçamento</li>
               <li>Modelos de Comportamento Financeiro</li>
               <li><strong>Métodos de negociação:</strong></li>
-              <li>Criação e Manutenção de Contratos de Prestação de Serviços para Nome Limpo</li>
+              <li>Criação e Manutenção de Contratos de Prestação de Serviços para Limpa Nome</li>
             </ul>
           </div>
         </div>

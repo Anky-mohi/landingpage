@@ -45,4 +45,7 @@
         padding-top: 75%; /* Adjust aspect ratio for smaller screens */
     }
   }
-  
+  .dat {
+    color: #f0c27b;
+  font-size: 40px;
+  }

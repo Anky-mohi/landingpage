@@ -68,7 +68,7 @@ const Countdown = () => {
 
   return (
     <section className="countdown-section">
-      <h2 className="countdown-title">Cart Opens In:</h2>
+      <h2 className="countdown-title">Nosso webinar inicia em :</h2>
       <div className="countdown-timer">
         <div className="countdown-item">
           <span className="countdown-number">{timeLeft.days}</span>

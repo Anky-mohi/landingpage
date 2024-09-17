@@ -16,6 +16,7 @@ import Section10 from './Section10';
 import Footer from './Footer';
 
 import Countdown from './Countdown';
+import WhatsAppGroupSection from './WhatsAppGroupSection';
 
 import WebinarRegistration from './WebinarRegistration';
 import Section11 from './Section11';
@@ -32,7 +33,7 @@ function App() {
   };
   const phoneNumber = "5511912345678";
   const message = "Hello, I need more information!";
-  const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+  const whatsappLink = `https://wa.me/${+5511984191787}?text=${encodeURIComponent(message)}`;
 
   return (
     <div className="App">
@@ -50,6 +51,7 @@ function App() {
       <Section8 />
       <Section9 />
       <WebinarRegistration ref={contactRef}/>
+      <WhatsAppGroupSection/>
       <Countdown/>
       <Section11 />
       <Section13 />

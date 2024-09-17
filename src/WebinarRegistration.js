@@ -42,20 +42,23 @@ const WebinarRegistration = React.forwardRef((props, ref) => {
 
   return (
     <section className="webinar-registration-section" ref={ref}>
+     <div className='ds'> <h1 className="webinar-registration-titl"> <span className='sp'>
+     26 e 27 de Setembro
+      </span> </h1>     </div> <br></br>
       <h2 className="webinar-registration-title">Participe do nosso webinar gratuito</h2>
       <p className="webinar-registration-description">
         Inscreva-se no nosso webinar exclusivo e aprenda os segredos da liberdade financeira!
       </p>
 
       {submitted ? (
-        <p className="success-message">Thank you for registering! We will contact you shortly.</p>
+        <p className="success-message">Obrigada por se registrar ! Entraremos em contato em breve !</p>
       ) : (
         <form className="webinar-form" onSubmit={onSubmit}>
           <input
             type="text"
             className="webinar-input"
             name="name"
-            placeholder="Your Full Name"
+            placeholder="Escreva seu nome"
             value={formData.name}
             onChange={handleChange}
             required
@@ -64,13 +67,13 @@ const WebinarRegistration = React.forwardRef((props, ref) => {
             type="email"
             className="webinar-input"
             name="email"
-            placeholder="Your Email Address"
+            placeholder="Seu e-mail"
             value={formData.email}
             onChange={handleChange}
             required
           />
           <button type="submit" className="webinar-submit">
-            Register Now
+            Registre-se agora!
           </button>
         </form>
       )}

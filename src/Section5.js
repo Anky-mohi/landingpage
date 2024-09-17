@@ -23,7 +23,8 @@ const Section5 = () => {
           <img className='icon' src='../process_9539824.png' alt="Process Icon" />       
           <h3 className="section5-title">Bônus Exclusivo:</h3>
           <p className="section5-text">
-            Após a imersão, você continuará recebendo suporte e orientação para garantir que aplique todo o conhecimento adquirido de maneira prática.
+            Após o Curso
+            Preparatório, você continuará recebendo suporte e orientação para garantir que aplique todo o conhecimento adquirido de maneira prática.
           </p>
         </div>
       </div>

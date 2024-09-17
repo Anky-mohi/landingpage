@@ -15,12 +15,12 @@ function Section1({ scrollToContact }) {
     <>
       <section className={`section-with-image ${isVisible ? 'visible' : ''}`}>
         <div className="section-content">
-          <h1>*Transforme seu Futuro Financeiro com uma Nova Fonte de Renda!*
+          <h1>Transforme seu Futuro Financeiro com uma Nova Fonte de Renda!
           </h1>
           <br />
           <h2>
-          Inscreva-se agora e comece sua jornada rumo à liberdade financeira com o *Curso Preparatório: Especialista em Limpa Nome,<br />
-            Com **Jonas Santos
+          Inscreva-se agora e comece sua jornada rumo à liberdade financeira com o Curso Preparatório: Especialista em Limpa Nome<br></br> <div className='date'>  26 e 27 de setembro </div>
+            Com Jonas Santos
           </h2>
           <br />
           <button className="cta-button" onClick={scrollToContact}>

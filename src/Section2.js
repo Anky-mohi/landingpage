@@ -12,7 +12,7 @@ function Section2() {
           
           {/* Updated Paragraph with New Content */}
           <p className="section2-paragraph">
-            Você já se sentiu preso a uma rotina de trabalho, incapaz de seguir em frente? A verdade é que muitas pessoas não conseguem atingir seus objetivos financeiros por falta de conhecimento e oportunidade. <em>Mas a culpa não é sua</em>, faltam oportunidades reais.
+           <strong className='date'> Você já se sentiu preso a uma rotina de trabalho, incapaz de seguir em frente? <br></br> </strong>  A verdade é que muitas pessoas não conseguem atingir seus objetivos financeiros por falta de conhecimento e oportunidade. <em>Mas a culpa não é sua</em>, faltam oportunidades reais.
           </p>
 
           <p className="section2-paragraph">
@@ -43,9 +43,9 @@ function Section2() {
                   <path fill="#fff" d="M32.484,29.656l-2.828,2.828l-14.14-14.14l2.828-2.828L32.484,29.656z"></path>
                 </svg>
               </i>
-              Falta de clareza sobre como investir
+              Não saber como investir
             </div>
-
+          
             <br />
 
             <div className="section2-button">
@@ -56,7 +56,7 @@ function Section2() {
                   <path fill="#fff" d="M32.484,29.656l-2.828,2.828l-14.14-14.14l2.828-2.828L32.484,29.656z"></path>
                 </svg>
               </i>
-              Dificuldade em encontrar orientação confiável
+              Dificuldade em encontrar<br></br> orientação confiável
             </div>
           </div>
         </div>

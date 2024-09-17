@@ -1,0 +1,70 @@
+/* WhatsApp Section Styling */
+.whatsapp-section {
+    background-color: #f4f4f9;
+    padding: 60px 5%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.5s ease;
+  }
+  
+  .whatsapp-section:hover {
+    background-color: #f7e8d8; /* Light color on hover */
+  }
+  
+  .whatsapp-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #075e54; /* WhatsApp brand color */
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .whatsapp-description {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #444;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Button Styling */
+  .whatsapp-button {
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #25d366; /* WhatsApp green color */
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .whatsapp-button:hover {
+    background-color: #128c7e;
+    transform: scale(1.05); /* Scale on hover */
+  }
+  
+  .whatsapp-button:active {
+    transform: scale(0.98); /* Press effect */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .whatsapp-title {
+      font-size: 2rem;
+    }
+  
+    .whatsapp-description {
+      font-size: 1rem;
+    }
+  
+    .whatsapp-button {
+      font-size: 1rem;
+      padding: 12px 30px;
+    }
+  }
+  

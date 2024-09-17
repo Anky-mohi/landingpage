@@ -5,7 +5,8 @@ const Section9 = () => {
   return (
     <section className="live-stream-section">
       <div className="container">
-        <h2>Watch Our Video</h2>
+        <strong className='dat'>VENHA TRANSFORMAR SUA VIDA FINANCEIRA ! </strong>
+        <br></br><br></br><br></br>
         <div className="live-stream-wrapper">
           <iframe
             width="560"

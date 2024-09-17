@@ -19,7 +19,26 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Subtle text shadow */
     animation: pulse 1.5s infinite; /* Add pulse animation */
   }
+  .webinar-registration-titl {
+    font-size: 1.5rem; /* Larger font size for emphasis */
+    margin-bottom: 20px; /* Space below the title */
+    color: yellow; /* Bright yellow for contrast */
+    font-weight: bold; /* Make the title bold */
+    background: linear-gradient(45deg, #ffdd57, yellow); /* Gradient background */
+    -webkit-background-clip: text; /* Clip the gradient to text */
+    background-clip: text;
+    color: transparent; /* Hide the text color */
+    position: relative; /* Position relative for pseudo-elements */
+    display: inline-block; /* Ensure gradient applies properly */
+    padding: 5px; /* Padding for the gradient effect */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Subtle text shadow */
+    animation: pulse 1.5s infinite; /* Add pulse animation */
+  }
+.ds{
   
+}
+
+
   .webinar-registration-description {
     font-size: 18px;
     color: white;
@@ -88,4 +107,7 @@ color: green;
   .response-message {
     margin-top: 15px;
     color: red;
+  }
+  .sp {
+    
   }
