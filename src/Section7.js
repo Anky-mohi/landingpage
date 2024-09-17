@@ -11,64 +11,48 @@ const Section7 = ({ scrollToContact }) => {
       
       <div className="content-wrapper">
       
+        {/* First Column with updated content */}
         <div className="column">
           <div className="module-card">
-            <h2>Módulo 1: Coaching de Vida Profissional (4 dias)</h2>
+            <h2>*Módulo 1: Primeiros Passos Práticos*</h2>
             <ul>
-              <li><strong>Desenvolvimento de habilidades pessoais e profissionais:</strong></li>
+              <li><strong>Desenvolvimento de competências pessoais e profissionais:</strong></li>
               <li>Inteligência Emocional e Social</li>
               <li>Desenvolvimento da Autoestima e Autoconfiança</li>
-              <li>Gestão do Tempo e Produtividade</li>
+              <li>Gestão de Tempo e Produtividade</li>
               <li>Técnicas de Resolução de Conflitos</li>
               <li>Desenvolvimento de Habilidades de Liderança</li>
-              <li>Ferramentas de Avaliação de Competências</li>
-              <li><strong>Técnicas de Coaching para Transformação de Vida:</strong></li>
-              <li>Metodologias de Mudança de Comportamento</li>
+              <li>Ferramentas de avaliação de clientes</li>
+              <li>Técnicas de Vendas</li>
+              <li><strong>Metodologias de Mudança de Comportamento:</strong></li>
               <li>Criação de Planos de Ação Personalizados</li>
-              <li>Técnicas de Motivação e Manutenção de Hábitos</li>
-              <li>Estratégias para Superação de Limitações</li>
-              <li><strong>O que é Coaching?</strong></li>
-              <li>História e Evolução do Coaching</li>
-              <li>Tipos de Coaching e Seus Benefícios</li>
-              <li>Diferenciação entre Coaching, Mentoria e Terapia</li>
-              <li><strong>O que é PNL (Programação Neurolinguística)?</strong></li>
-              <li>Fundamentos e História da PNL</li>
-              <li>Aplicações Práticas da PNL no Coaching</li>
+              <li>Técnicas de motivação e manutenção de hábitos</li>
+              <li>Estratégias para superar limitações</li>
+              <li><strong>Introdução ao Mercado:</strong></li>
+              <li>O que é um especialista em Nome Limpo?</li>
+              <li>História das agências de crédito</li>
+              <li>Tipos de Análise de Crédito</li>
+              <li>Diferenciação entre Serasa, SPC, BACEN, Sinprot</li>
             </ul>
           </div>
         </div>
   
+        {/* Second Column with updated content */}
         <div className="column">
           <div className="module-card">
-            <h2>Módulo 2: Mentor de Coaching Financeiro (3 dias)</h2>
+            <h2>*Módulo 2: Principais Pilares do Marketing Clean Name*</h2>
             <ul>
-              <li><strong>Estratégias financeiras para alcançar a liberdade financeira:</strong></li>
-              <li>Criação de Estratégias Personalizadas para Liberdade Financeira</li>
-              <li>Estudos de Caso e Exemplos Práticos</li>
-              <li><strong>Planejamento financeiro e investimentos:</strong></li>
-              <li>Técnicas Avançadas de Planejamento Financeiro</li>
-              <li>Análise de Risco e Gestão de Investimentos</li>
-              <li><strong>Origem do Dinheiro:</strong></li>
-              <li>História do Dinheiro e Seu Impacto Econômico</li>
-              <li>Evolução das Finanças Pessoais</li>
-              <li><strong>Ciência da Riqueza:</strong></li>
-              <li>Princípios Científicos da Criação de Riqueza</li>
+              <li><strong>Estratégias Avançadas:</strong></li>
+              <li>Criação de Estratégias Personalizadas para Pessoas Físicas e Jurídicas</li>
+              <li>Estudos de caso e exemplos práticos</li>
+              <li><strong>Planejamento Financeiro e Investimentos em Campanhas Digitais:</strong></li>
+              <li>Técnicas de Atendimento WhatsApp</li>
+              <li>Análise de Risco e Gestão de Clientes</li>
+              <li><strong>Análise da Origem da Dívida:</strong></li>
+              <li>Histórico Financeiro do Cliente e Impacto no Orçamento</li>
               <li>Modelos de Comportamento Financeiro</li>
-              <li><strong>Pilares da Riqueza:</strong></li>
-              <li>Estrutura e Construção dos Pilares da Riqueza</li>
-              <li>Estratégias para Fortalecer os Pilares</li>
-              <li><strong>Clareza Financeira:</strong></li>
-              <li>Ferramentas de Avaliação de Clareza Financeira</li>
-              <li>Estratégias para Alcançar Clareza nos Objetivos Financeiros</li>
-              <li><strong>Como Sair das Dívidas:</strong></li>
-              <li>Planos de Quitação de Dívidas e Gestão de Crédito</li>
-              <li>Estratégias de Negociação e Refinanciamento</li>
-              <li><strong>Como Gerar Dinheiro:</strong></li>
-              <li>Métodos Diversificados e Fontes de Renda</li>
-              <li>Estratégias Empreendedoras e de Investimento</li>
-              <li><strong>Tipos de Investimento:</strong></li>
-              <li>Análise e Comparação dos Diferentes Tipos de Investimentos</li>
-              <li>Estratégias de Diversificação e Gestão de Carteira</li>
+              <li><strong>Métodos de negociação:</strong></li>
+              <li>Criação e Manutenção de Contratos de Prestação de Serviços para Nome Limpo</li>
             </ul>
           </div>
         </div>
