@@ -11,27 +11,27 @@ const Section4 = ({ scrollToContact }) => {
     {
       title: "Servidores Públicos",
       text: "Procurando novas formas de fazer fonte de renda",
-      backgroundImage: "../213.webp" // Replace with your image path
+      backgroundImage: "../casual-young-multiethnic-woman-eyeglasses-600nw-2392376609.webp" // Replace with your image path
     },
     {
       title: "Profissionais Liberais e Autônomos",
       text: "que querem transcender a troca de tempo por dinheiro, criando fontes de renda passiva que lhes permitam viver suas paixões. ",
-      backgroundImage: "../asd74sa5d.webp" // Replace with your image path
+      backgroundImage: "../young-brazilian-man-isolated-on-600nw-2180583651.webp" // Replace with your image path
     },
     {
       title: "Trabalhadores CLT",
       text: "que sonham com a independência financeira, buscando estratégias para multiplicar seus ganhos.",
-      backgroundImage: "../a5sd3ad.webp" // Replace with your image path
+      backgroundImage: "../portrait-brazilian-woman-wide-smile-has-short-cu-pretty-brazilian-woman-has-beautiful-smile-her-face-has-103319749.webp" // Replace with your image path
     },
     {
       title: "Profissionais de Marketing Digital",
       text: "que veem na internet um campo fértil para construir e escalar seus negócios de forma inteligente e lucrativa",
-      backgroundImage: "../ad4as5df.webp" // Replace with your image path
+      backgroundImage: "../handsome-hispanic-man-smiling-happy-600nw-2121244586.webp" // Replace with your image path
     },
     {
       title: "Professores e Educadores",
       text: "Professores e educadores que queiram ampliar seu curriculo e complementar sua renda",
-      backgroundImage: "../2d1s3f.webp" // Replace with your image path
+      backgroundImage: "../casual-young-multiethnic-woman-eyeglasses-600nw-2392376609.webp" // Replace with your image path
     },
   ];
 
