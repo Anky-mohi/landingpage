@@ -11,7 +11,7 @@ const Section4 = ({ scrollToContact }) => {
     {
       title: "Servidores Públicos",
       text: "Procurando novas formas de fazer fonte de renda",
-      backgroundImage: "../casual-young-multiethnic-woman-eyeglasses-600nw-2392376609.webp" // Replace with your image path
+      backgroundImage: "../istockphoto-1007763808-612x612.jpg" // Replace with your image path
     },
     {
       title: "Profissionais Liberais e Autônomos",

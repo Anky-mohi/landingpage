@@ -5,7 +5,7 @@ const Section7 = ({ scrollToContact }) => {
   return (
     <section className="mentoring-section">
       <div className="header">
-        <h1>Com Jonas Santos: A Especialização em Mentoria e Coaching em Finanças mais Completa do Brasil</h1>
+        <h1>Com Jonas Santos: A Especialização em Limpa Nome mais Completa do Brasil</h1>
         <p>Veja o que você encontrará:</p>
       </div>
       
@@ -40,7 +40,7 @@ const Section7 = ({ scrollToContact }) => {
         {/* Second Column with updated content */}
         <div className="column">
           <div className="module-card">
-            <h2>*Módulo 2: Principais Pilares do Marketing Clean Name*</h2>
+            <h2>*Módulo 2: Principais Pilares do Limpa Nome*</h2>
             <ul>
               <li><strong>Estratégias Avançadas:</strong></li>
               <li>Criação de Estratégias Personalizadas para Pessoas Físicas e Jurídicas</li>

@@ -14,18 +14,20 @@ const Section6 = () => {
           </p>
         </div>
         <div className="testimonial-item">
-          <h3 className="testimonial-name">Ana Silva</h3>
+          <br></br><br></br>
           <p className="testimonial-description">
           "Com o curso do Jonas, consegui abrir meu próprio negócio e hoje ajudo 
           dezenas de pessoas a recuperarem seu crédito!"
           </p>
+          <h3 className="testimonial-name">Ana Silva</h3>
         </div>
         <div className="testimonial-item">
-          <h3 className="testimonial-name">Carlos Souza</h3>
+          <br></br><br></br>
           <p className="testimonial-description">
           "O curso mudou minha vida! Agora tenho uma renda extra mensal trabalhando 
           em casa, no meu próprio horário."
           </p>
+          <h3 className="testimonial-name">Carlos Souza</h3>
         </div>
        
       </div>
