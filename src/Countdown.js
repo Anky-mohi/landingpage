@@ -113,46 +113,52 @@ const products = [
 ];
 
 const ProductPage = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3, // Number of products to show at once
-    slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: true,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
-  };
+
 
   return (
-    <section className="product-page">
-      <Slider {...settings}>
-        {products.map((product, index) => (
-          <div key={index} className="product-container">
-            <img src={product.image} alt={product.name} className="product-image" />
-            <h2 className="product-title">{product.name}</h2>
-            <p className="product-description">{product.description}</p>
-            <div className="product-price">{product.price}</div>
-            <button className="purchase-button">Purchase Now</button>
+<>
+<section id="webinar" style={{ backgroundColor: '#f5f5f5', padding: '50px 0' }}>
+      <div className="container">
+        <div className="row justify-content-center text-center">
+          <div className="col-md-8">
+            <h1 style={{ color: '#333', fontWeight: 'bold', fontSize: '36px' }}>
+            Transforme seu futuro financeiro!
+            </h1>
+            <p style={{ fontSize: '20px', marginTop: '20px', color: '#555' }}>
+            Cadastre-se agora e comece sua jornada rumo à liberdade financeira com o{' '}
+              <strong>Curso Preparatório: Especialista em Nome Limpo</strong>.
+            </p>
+            <p style={{ fontSize: '18px', color: '#777' }}>
+            26 e 27 de setembro com Jonas Santos
+            </p>
           </div>
-        ))}
-      </Slider>
+        </div>
+
+        <div className="row justify-content-center text-center mt-5">
+          <div className="col-md-6">
+            <a
+              href="https://yourstorelink.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-custom btn-signup"
+            >
+             Cadastre-se agora e garanta sua vaga!
+            </a>
+            <a
+             href="https://chat.whatsapp.com/Jg6xEfOTyH4Kpmi2YqFX9i"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-custom btn-whatsapp"
+            >
+              Contate-nos no WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
+
+
+</>
   );
 };
 export default Countdown;

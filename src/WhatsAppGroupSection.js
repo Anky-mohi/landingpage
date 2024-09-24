@@ -3,10 +3,12 @@ import './WhatsAppGroupSection.css';
 
 const WhatsAppGroupSection = () => {
   const handleWhatsAppClick = () => {
-    window.open('https://chat.whatsapp.com/Jg6xEfOTyH4Kpmi2YqFX9i', '_blank');
+    window.open('https://chat.whatsapp.com/Jg6xEfOTyH4Kpmi2YqFX9i');
   };
 
   return (
+    <>
+    
     <section className="whatsapp-section">
       <h2 className="whatsapp-title">Junte-se ao nosso grupo no WhatsApp!</h2>
       <p className="whatsapp-description">
@@ -17,6 +19,7 @@ const WhatsAppGroupSection = () => {
         Entrar no grupo do WhatsApp
       </button>
     </section>
+  </>
   );
 };
 
