@@ -8,16 +8,7 @@ const Section9 = () => {
         <strong className='dat'>VENHA TRANSFORMAR SUA VIDA FINANCEIRA ! </strong>
         <br></br><br></br><br></br>
         <div className="live-stream-wrapper">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/yGqWvvJb_9I?kMQAUSOjcJQ?si=Zy1rf2QRqWFJ_31c"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
-          ></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/FSHbkOHjZB0?si=pbJMmnLeaQCeAGPF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
       </div>
     </section>
