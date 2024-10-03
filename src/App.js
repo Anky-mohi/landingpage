@@ -15,7 +15,7 @@ import Section9 from './Section9';
 import Section10 from './Section10';
 import Footer from './Footer';
 
-import Countdown from './Countdown';
+
 import WhatsAppGroupSection from './WhatsAppGroupSection';
 
 import WebinarRegistration from './WebinarRegistration';
@@ -52,7 +52,6 @@ function App() {
       <Section9 />
       <WebinarRegistration ref={contactRef}/>
       <WhatsAppGroupSection/>
-      <Countdown/>
       <Section11 />
       <Section13 />
       <Section10 />
